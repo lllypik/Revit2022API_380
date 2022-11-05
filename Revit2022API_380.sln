@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit2022API_380", "Revit2022API_380\Revit2022API_380.csproj", "{A7357BE9-A093-46EE-9AD5-D8163DC90960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7357BE9-A093-46EE-9AD5-D8163DC90960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7357BE9-A093-46EE-9AD5-D8163DC90960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7357BE9-A093-46EE-9AD5-D8163DC90960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7357BE9-A093-46EE-9AD5-D8163DC90960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCD32F3A-6ACE-427D-AE6D-A8DFB31B394D}
+	EndGlobalSection
+EndGlobal

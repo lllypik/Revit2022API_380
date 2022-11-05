@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\PROG\App\DLL\Revit2022API_380.dll"</Assembly>
+		<AddInId>70EC613A-99E4-44AD-8169-9DDA03562DA9</AddInId>
+		<FullClassName>Revit2022API_380.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>Тема 8 Печать и экспорт </Text>
+	</AddIn>
+</RevitAddIns>
+

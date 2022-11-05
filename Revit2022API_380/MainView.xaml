@@ -1,0 +1,33 @@
+﻿<Window x:Class="Revit2022API_380.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Revit2022API_380"
+             mc:Ignorable="d" 
+             SizeToContent="WidthAndHeight"
+             MinWidth="350"
+             Title="Экспорт и печать">
+    <StackPanel>
+        <Button Content="Печать по формату"
+                Command="{Binding PrintCommand}"
+                Margin="5"
+                Padding="5"/>
+        <Button Content="Export to .DWG"
+                Command="{Binding ConvertDWGCommand}"
+                Margin="5"
+                Padding="5"/>
+        <Button Content="Export to .IFC"
+                Command="{Binding ConvertIFCCommand}"
+                Margin="5"
+                Padding="5"/>
+        <Button Content="Export to .NWC"
+                Command="{Binding ConvertNWCCommand}"
+                Margin="5"
+                Padding="5"/>
+        <Button Content="Export to .JPEG"
+                Command="{Binding ConvertJPEGCommand}"
+                Margin="5"
+                Padding="5"/>
+    </StackPanel>
+</Window>
